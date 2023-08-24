@@ -1,0 +1,73 @@
+SchoolManagementSystem
+├── .idea
+├── .github
+├── ci
+├── design
+├── docs
+├── scripts
+SchoolManagementSystem
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── com
+│   │   │   │   ├── school
+│   │   │   │   │   ├── controllers
+│   │   │   │   │   │   ├── AccountController.java
+│   │   │   │   │   │   ├── StudentController.java   # Handles student-related actions
+│   │   │   │   │   │   ├── TeacherController.java   # Handles teacher-related actions
+│   │   │   │   │   │   ├── AdminController.java    # Handles admin-related actions
+│   │   │   │   │   ├── models
+│   │   │   │   │   │   ├── User.java               # User model
+│   │   │   │   │   │   ├── Student.java            # Student model
+│   │   │   │   │   │   ├── Teacher.java            # Teacher model
+│   │   │   │   │   │   ├── Admin.java              # Admin model
+│   │   │   │   │   ├── services
+│   │   │   │   │   │   ├── UserService.java        # Manages user-related operations
+│   │   │   │   │   │   ├── StudentService.java     # Manages student-related operations
+│   │   │   │   │   │   ├── TeacherService.java     # Manages teacher-related operations
+│   │   │   │   │   │   ├── AdminService.java       # Manages admin-related operations
+│   │   │   │   │   ├── repositories
+│   │   │   │   │   │   ├── UserRepository.java     # User repository
+│   │   │   │   │   │   ├── StudentRepository.java  # Student repository
+│   │   │   │   │   │   ├── TeacherRepository.java  # Teacher repository
+│   │   │   │   │   │   ├── AdminRepository.java    # Admin repository
+│   │   │   │   │   ├── security
+│   │   │   │   │   │   ├── SecurityConfig.java     # Security configuration
+│   │   │   │   │   │   └── CustomUserDetailsService.java
+│   │   │   │   │   ├── utils
+│   │   │   │   │   │   ├── DateUtils.java
+│   │   │   │   │   │   └── StringUtils.java
+│   │   │   │   │   └── SchoolApp.java
+│   │   ├── resources
+│   │   │   ├── application.properties
+│   │   │   ├── static
+│   │   │   │   ├── css
+│   │   │   │   ├── js
+│   │   │   │   └── img
+│   │   │   └── WEB-INF
+│   │   │       └── views
+│   │   │           ├── index.jsp
+│   │   │           ├── student.jsp
+│   │   │           ├── teacher.jsp
+│   │   │           ├── admin.jsp
+│   │   │           ├── login.jsp
+│   │   │           ├── register.jsp
+│   │   │           ├── profile.jsp
+│   │   │           ├── change_password.jsp
+│   │   │           ├── student_dashboard.jsp     # Student dashboard
+│   │   │           ├── teacher_dashboard.jsp     # Teacher dashboard
+│   │   │           └── admin_dashboard.jsp       # Admin dashboard
+│   │   ├── webapp
+│   │   │   ├── WEB-INF
+│   │   │   │   ├── lib
+│   │   │   │   ├── classes
+│   │   │   │   └── web.xml
+├── test
+│   ├── java
+│   │   └── com
+│   │       └── school
+│   │           ├── controllers
+│   │           ├── services
+│   │           ├── repositories
+└── pom.xml
+└── README.md
